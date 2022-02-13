@@ -41,5 +41,7 @@ The code file is located in the src/Anagram.java file. There are more than enoug
 If you are not very familiar with the Hadoop Map-Reduce framework, the following sites provide useful information for understanding some basic concepts, as well as some of the ideas of this task:
 
 [Fundamentals of MapReduce with MapReduce Example](https://medium.com/edureka/mapreduce-tutorial-3d9535ddbe7c)
+
 [Creating Custom Hadoop Writable Data Type](http://hadooptutorial.info/creating-custom-hadoop-writable-data-type/)
+
 [MSc in Data Science Programme](https://datascience.cy/)

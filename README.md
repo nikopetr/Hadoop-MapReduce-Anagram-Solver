@@ -1,7 +1,7 @@
 # Hadoop-MapReduce-Anagram-Solver
 
 <p align="center">
-  <img src="https://github.com/nikopetr/Hadoop-MapReduce-Anagram-Solver/blob/main/hadoop_img.png" width="800" height="400"/>
+  <img src="https://github.com/nikopetr/Hadoop-MapReduce-Anagram-Solver/blob/main/hadoop_img.png" width="700" height="300"/>
 </p>
 
 The implementation consists of a program that utilizes the Hadoop Map-Reduce framework to identify the anagrams of the words of a file.

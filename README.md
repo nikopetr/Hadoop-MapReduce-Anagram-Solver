@@ -1,7 +1,7 @@
 # Hadoop-MapReduce-Anagram-Solver
 
 <p align="center">
-  <img src="https://github.com/nikopetr/EDA-and-Sentiment-Analysis-on-IMDB-Dataset/blob/main/tv-gcd05f2dbf_1920.jpg" width="800" height="400"/>
+  <img src="https://github.com/nikopetr/Hadoop-MapReduce-Anagram-Solver/blob/main/hadoop_img.png" width="800" height="400"/>
 </p>
 
 The implementation consists of a program that utilizes the Hadoop Map-Reduce framework to identify the anagrams of the words of a file.
@@ -35,7 +35,8 @@ Examples of desired output:
 
 The main idea of this problem's solution is to use the same Key for every word that can be rearranged together. Thus, the ideal Key for each read word to use during the mapping phase, is a Text object with the **sorted letters-characters (alphabetically)** of the read word. For example, both _declaim_ and _decimal_ words will be using the key _acdeilm_.
 
-The code file is located in the src/Anagram.java file. There are more than enough comments which explain the whole implementation very analytically.
+The desired output of the program is located in the [part-r-00000](https://github.com/nikopetr/Hadoop-MapReduce-Anagram-Solver/blob/main/Anagram/part-r-00000) file, while the code file is located in the [Anagram.java](https://github.com/nikopetr/Hadoop-MapReduce-Anagram-Solver/blob/main/Anagram/src/Anagram.java) file. There are more than enough comments which explain the whole implementation very analytically.
+
 
 ## Helpful Material-Links
 If you are not very familiar with the Hadoop Map-Reduce framework, the following sites provide useful information for understanding some basic concepts, as well as some of the ideas of this task:

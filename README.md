@@ -13,18 +13,18 @@ The implementation consists of a program that utilizes the Hadoop Map-Reduce fra
 An anagram is a word or phrase formed by rearranging the letters of a different word, by using all the original characters/letters exactly once.
 
 For example:
-– Refills→fillers
-– Relayed→layered
-– Rentals→antlers
-– Rebuild→builder
+- Refills→fillers
+- Relayed→layered
+- Rentals→antlers
+- Rebuild→builder
 
 
 ## Data 
 Specifically this task focuses on finding the anagrams of the words of the following file: https://raw.githubusercontent.com/pmichaud/rpbench/master/files/unixdict.txt
 
 You can download & upload the aforementioned UNIX dictionary file to your own HDFS filesystem using the following commands:
-– wget https://raw.githubusercontent.com/pmichaud/rpbench/master/files/unixdict.txt
-– hadoop fs -copyFromLocal unixdict.txt filename_of_input_file
+- wget https://raw.githubusercontent.com/pmichaud/rpbench/master/files/unixdict.txt
+- hadoop fs -copyFromLocal unixdict.txt filename_of_input_file
 
 
 ## Implementation
